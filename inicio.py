@@ -73,7 +73,7 @@ def logout():
 
 def main():
     st.title(":red[Pagina de Ejemplo]")
-    st.title(":blue[T.A. Ciudad de Alderetes - T.A. El Tigre]")
+    st.title(":blue[T.A. Ciudad de Alderetes - T.A. El Tigre 🚌]")
     st.title("Control de Combustible")
 
     if logged_in:
