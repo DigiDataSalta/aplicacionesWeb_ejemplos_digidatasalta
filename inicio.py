@@ -123,6 +123,8 @@ def main():
         st.sidebar.title("Inicio de Sesión")
 
         with st.form(key="login_form"):
+            st.subheader("Nombre de Usuario: digidatasalta")
+            st.subheader("Contraseña: digidatasalta")
             username = st.text_input("Nombre de Usuario:")
             password = st.text_input("Contraseña:", type="password")
 
