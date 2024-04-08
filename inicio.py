@@ -72,7 +72,8 @@ def logout():
     st.success("Sesión cerrada exitosamente")
 
 def main():
-    st.title("T.A. Ciudad de Alderetes - T.A. El Tigre")
+    st.title(":red[Pagina de Ejemplo]")
+    st.title(":blue[T.A. Ciudad de Alderetes - T.A. El Tigre]")
     st.title("Control de Combustible")
 
     if logged_in:
